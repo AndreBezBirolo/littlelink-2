@@ -13,7 +13,7 @@ html {
 .container {
   max-width: 570px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 64px 15px 32px;
 }
 .container .text-content {
   display: -webkit-box;
@@ -41,9 +41,6 @@ html {
   align-items: center;
 }
 /* ESTILO  */
-.container {
-  padding: 64px 0 32px;
-}
 .container .image {
   border-radius: 50%;
   margin-bottom: 24px;
