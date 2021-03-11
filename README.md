@@ -1,5 +1,6 @@
 # Linktree Alternativo - Baseado em LittleLink
 
+Acesse: https://andrebezbirolo.github.io/littlelink-2/
 
 ## 🚀 Começando
 
