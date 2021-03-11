@@ -1,0 +1,117 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-github: #24292e;
+  --color-twitch: #9146ff;
+  --color-youtube: #c4302b;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+}
+/* GERAL  */
+.container {
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.container .list-button-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* ESTILO  */
+.container {
+  padding: 64px 0 32px;
+}
+.container .image {
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+.container .title {
+  font-weight: 800;
+  font-size: 4.6rem;
+  line-height: 6.4rem;
+  color: var(--color-black);
+  /* 1 rem = 10px  */
+}
+.container .description {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: var(--color-black);
+}
+.container .title,
+.container .description,
+.container .list-button-content {
+  margin-bottom: 40px;
+}
+.container .footer-container .development,
+.container .footer-container .copyright {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--color-black);
+  text-align: center;
+}
+.container .list-button-content .button-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 5px;
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: var(--color-white);
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0);
+}
+.container .list-button-content .button-item:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+}
+.container .list-button-content .button-item svg {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+.container .list-button-content .button-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.container .list-button-content .button-item.github {
+  background: var(--color-github);
+}
+.container .list-button-content .button-item.twitch {
+  background: var(--color-twitch);
+}
+.container .list-button-content .button-item.youtube {
+  background: var(--color-youtube);
+}
