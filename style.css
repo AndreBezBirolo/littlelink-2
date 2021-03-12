@@ -1,7 +1,9 @@
 :root {
+  --color-background: #ffffff;
+  --color-text: #000000;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-github: #24292e;
+  --color-github: #000000;
   --color-twitch: #9146ff;
   --color-youtube: #000000;
   --color-linkedin: #2867B2;
@@ -9,6 +11,7 @@
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 62.5%;
+  background: var(--color-background);
 }
 /* GERAL  */
 .container {
@@ -51,7 +54,7 @@ html {
   font-weight: 800;
   font-size: 4.6rem;
   line-height: 6.4rem;
-  color: var(--color-black);
+  color: var(--color-text);
   /* 1 rem = 10px  */
 }
 @media(max-width: 768px) {
@@ -65,10 +68,16 @@ html {
 .container .description {
   font-size: 1.8rem;
   line-height: 2.5rem;
-  color: var(--color-black);
+  color: var(--color-text);
+  margin-bottom: 16px;
+}
+.container .theme-switch {
+  font-size: 1.4rem;
+  color: var(--color-text);
+  cursor: pointer;
 }
 .container .title,
-.container .description,
+.container .theme-switch,
 .container .list-button-content {
   margin-bottom: 40px;
 }
@@ -76,7 +85,7 @@ html {
 .container .footer-container .copyright {
   font-size: 1.4rem;
   line-height: 2rem;
-  color: var(--color-black);
+  color: var(--color-text);
   text-align: center;
 }
 .container .list-button-content .button-item {
